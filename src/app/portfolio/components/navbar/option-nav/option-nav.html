@@ -1,0 +1,9 @@
+<div>
+  @for (item of menuOptions; track item) {
+    <a [routerLink]="item.route">
+      <div>
+        <span>{{ item.label }}</span>
+      </div>
+    </a>
+  }
+</div>
