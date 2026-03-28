@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-perfil-nav',
   imports: [],
   templateUrl: './perfil-nav.html',
+  styleUrl: './style.css',
 })
-export class PerfilNav { }
+export class PerfilNav {}

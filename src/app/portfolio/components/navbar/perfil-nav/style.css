@@ -1,0 +1,26 @@
+
+.cont-perfil{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+
+
+}
+
+
+h3{
+  margin: 2px;
+}
+
+p{
+  margin: 2px;
+}
+
+.foto{
+  min-width: 0;
+  min-height: 0;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}

@@ -5,6 +5,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-option-nav',
   imports: [RouterLink],
   templateUrl: './option-nav.html',
+  styleUrl: './styles.css',
 })
 export class OptionNav {
   menuOptions = [

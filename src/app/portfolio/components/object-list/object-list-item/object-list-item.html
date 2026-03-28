@@ -1,5 +1,10 @@
-<div>
-  <img src="" alt="" />imagenes
-  <h4>Titulo</h4>
-  <p>Descripción</p>
+<div class="container">
+  @for (item of data(); track item) {
+    <div>
+      <img src="{{ item.image }}" alt="imagen" />
+      <h4>{{ item.title }}</h4>
+      <p>{{ item.description }}</p>
+      <p>Nivel: {{ item.level }}</p>
+    </div>
+  }
 </div>

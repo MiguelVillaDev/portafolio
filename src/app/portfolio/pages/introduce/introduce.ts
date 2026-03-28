@@ -6,5 +6,6 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-introduce',
   imports: [Navbar, RouterOutlet],
   templateUrl: './introduce.html',
+  styleUrl: './style.css',
 })
 export default class Introduce {}

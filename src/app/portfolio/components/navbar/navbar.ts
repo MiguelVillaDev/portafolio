@@ -6,5 +6,6 @@ import { OptionNav } from './option-nav/option-nav';
   selector: 'app-navbar',
   imports: [PerfilNav, OptionNav],
   templateUrl: './navbar.html',
+  styleUrl: './nav-styles.css',
 })
 export class Navbar {}
